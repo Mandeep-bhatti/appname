@@ -1,4 +1,4 @@
 import { combineReducers } from "redux";
-import { upAndDown } from "./reducers"
-const RootReducers = combineReducers({ upAndDown })
+import { upAndDown, showData, xandy } from "./reducers"
+const RootReducers = combineReducers({ upAndDown, showData, xandy })
 export default RootReducers;    

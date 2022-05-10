@@ -1,15 +1,15 @@
 import React from 'react';
-import Val from "./components/Val"
-import Data from "./components/Data";
 import { Provider } from "react-redux";
 import store from "./redux/store"
+import Game from "./components/game/Game"
 function App() {
   return (<>
     <Provider store={store}>
-      <Data />
-      <Val />
+      {/* <Header /> */}
+      {/* <Description /> */}
+      {/* <Accordin /> */}
+      <Game />
     </Provider>
-
   </>
   );
 }

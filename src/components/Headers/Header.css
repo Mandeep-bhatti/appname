@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  padding: 10px 15px;
+  border-bottom: 1px solid rgb(216, 214, 214);
+  align-items: center;
+}
+.tabs-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
